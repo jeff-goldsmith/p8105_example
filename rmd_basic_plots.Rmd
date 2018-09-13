@@ -26,6 +26,13 @@ First we show a histogram of the `x` variable.
 ggplot(plot_df, aes(x = x)) + geom_histogram()
 ```
 
+Next we show a histogram of the `y` variable.
+
+```{r y_hist}
+ggplot(plot_df, aes(x = y)) + geom_histogram()
+```
+
+
 Next we show a scatterplot of `y` vs `x`. 
 
 ```{r yx_scatter}
